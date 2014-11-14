@@ -19,7 +19,7 @@
 
 + (Class)layerClass
 {
-  return [FBShimmeringLayer class];
+  return [FBShimmeringLayer class];//
 }
 
 #define __layer ((FBShimmeringLayer *)self.layer)
